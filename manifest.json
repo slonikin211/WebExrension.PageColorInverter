@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Invert Colors Extension",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "icon.png"
+    }
+  }
+}
